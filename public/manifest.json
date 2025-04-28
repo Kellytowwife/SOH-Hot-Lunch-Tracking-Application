@@ -1,0 +1,17 @@
+{
+  "name": "Seeds of Hope Hot Lunch App",
+  "short_name": "Seeds of Hope",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8f5e9",
+  "theme_color": "#2e7d32",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "Streamline check-ins and service tracking for Seeds of Hope's Hot Lunch Program."
+}
