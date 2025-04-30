@@ -1,6 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Admin from "./Admin";
+import { Link } from "react-router-dom";
 
 function App() {
   const buttonStyle = {
@@ -50,10 +49,6 @@ function App() {
       <div style={{ marginTop: "2rem" }}>
         <Link to="/admin" style={{ ...buttonStyle, backgroundColor: "#388e3c" }}>Admin View</Link>
       </div>
-
-      <Routes>
-        <Route path="/admin" element={<Admin />} />
-      </Routes>
 
       <p style={{ marginTop: "2rem", color: "#2e7d32", fontSize: "0.9rem", textAlign: "center" }}>
         Welcome to the Seeds of Hope Hot Lunch Program!<br />
